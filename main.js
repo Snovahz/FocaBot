@@ -9,7 +9,7 @@ const focaBot = new FocaBotCore({
   name: 'FocaBot',
   version: '0.6.1 (Dangerous Dodo)',
   prefix: env.BOT_PREFIX,
-  token: env.BOT_TOKEN,
+  token: Process.env.BOT_TOKEN,
   owner: JSON.parse(env.BOT_OWNER),
   admins: JSON.parse(env.BOT_ADMINS),
   adminRoles: JSON.parse(env.BOT_ADMIN_ROLES),
