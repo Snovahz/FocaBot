@@ -23,7 +23,7 @@ class ConfigModule extends BotModule
       maxItems: 0
       allowRNG: true
       raffleMention: false
-      commandChannel: ''
+      commandChannel: '*'
       voiceChannel: '*'
       queueLoop: false
     }
